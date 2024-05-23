@@ -1,0 +1,90 @@
+body {
+    background: #281e3f;
+}
+
+.container {
+    background-color: #050505;
+    width: 40%;
+    min-width: 500px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 20px 0;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.338);
+    text-align: center; /* Center align content */
+}
+
+.heading {
+    margin-bottom: 20px; /* Spacing between heading and timer */
+    color:#fff;
+}
+
+.timer-display {
+    position: relative;
+    width: 76%;
+    background: #fff;
+    left: 4%;
+    font-family: 'Roboto mono', monospace;
+    color: #8c52ff;
+    font-size: 30px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(65, 5, 145, 0.25);
+}
+
+.buttons {
+    width: 90%;
+    margin: 40px auto 20px auto; /* Spacing above buttons */
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons button {
+    width: 120px;
+    height: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+.start-btn {
+    background-color: #00b894; /* Different color for start button */
+    color: #fff;
+    border: none;
+}
+
+.pause-btn {
+    background-color: #0984e3; /* Different color for pause button */
+    color: #fff;
+    border: none;
+}
+
+.reset-btn {
+    background-color: #d63031; /* Different color for reset button */
+    color: #fff;
+    border: none;
+}
+
+.lap-btn {
+    background-color: #f9ed06; /* Different color for lap button */
+    color: #fff;
+    border: none;
+}
+
+.buttons button:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+}
+
+.laps {
+    text-align: center; /* Align laps to the left */
+    margin-top: 20px; /* Spacing above laps */
+    color: #fff;
+}
